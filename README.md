@@ -1,17 +1,6 @@
-## My Project
+# Automating Amazon Guardduty With IaC
 
-TODO: Fill this README out!
+This is an initial repo to bootstrap the tutorial "How to use IaC to Create an Automated AWS Security Solution?"
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
+The `gd-iac-initial.yml` file is for creating the initial Cloud9 instance where all Terraform configuration is performed.  The remaining code samples are used to create two EC2 instances in a VPC that are used for testing and validation in the tutorial.
 
